@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#546E7A</color>
+    <color name="colorPrimaryDark">#263238</color>
+    <color name="colorAccent">#78909C</color>
+    <color name="colorAccent1">#64B5F6</color>
+
+    <color name="transparent">#00000000</color>
+
+    <color name="primary">#1565C0</color>
+    <color name="info">#00838F</color>
+    <color name="success">#2E7D32</color>
+    <color name="warning">#EF6C00</color>
+    <color name="danger">#C62828</color>
+    <color name="muted">#BDBDBD</color>
+    <color name="secondary">#9E9E9E</color>
+    <color name="dark">#3b3b3b</color>
+    <color name="ink">#000000</color>
+
+    <color name="red">#D32F2F</color>
+    <color name="pink">#C2185B</color>
+    <color name="purple">#7B1FA2</color>
+    <color name="indigo">#303F9F</color>
+    <color name="blue">#1976D2</color>
+    <color name="light_blue">#64B5F6</color>
+    <color name="cyan">#0097A7</color>
+    <color name="teal">#00796B</color>
+    <color name="green">#388E3C</color>
+    <color name="lime">#AFB42B</color>
+    <color name="yellow">#FBC02D</color>
+    <color name="amber">#FFA000</color>
+    <color name="orange">#F57C00</color>
+    <color name="brown">#5D4037</color>
+    <color name="silver">#9E9E9E</color>
+    <color name="gray">#616161</color>
+    <color name="black">#000000</color>
+
+    <color name="graph_card_background">#ffffff</color>
+
+    <color name="favorite_off">#999999</color>
+    <color name="favorite_on">#FBC02D</color>
+
+    <color name="button_text_default">#ffffff</color>
+    <color name="button_text_reverse">#000000</color>
+
+    <!-- Bootstrap Button -->
+    <color name="button_default">#e6e6e6</color>
+    <color name="button_default_border">#d6d6d6</color>
+    <color name="button_default_pressed">#c6c6c6</color>
+    <color name="button_default_pressed_border">#b6b6b6</color>
+
+    <color name="button_primary">#337AB7</color>
+    <color name="button_primary_border">#2E6DA4</color>
+    <color name="button_primary_pressed">#286090</color>
+    <color name="button_primary_pressed_border">#204D74</color>
+
+    <color name="button_success">#28a745</color>
+    <color name="button_success_border">#208637</color>
+    <color name="button_success_pressed">#208637</color>
+    <color name="button_success_pressed_border">#1a682c</color>
+
+    <color name="button_info">#17a2b8</color>
+    <color name="button_info_border">#128696</color>
+    <color name="button_info_pressed">#128696</color>
+    <color name="button_info_pressed_border">#0d6673</color>
+
+    <color name="button_warning">#F0AD4E</color>
+    <color name="button_warning_border">#EEA236</color>
+    <color name="button_warning_pressed">#EC971F</color>
+    <color name="button_warning_pressed_border">#D58512</color>
+
+    <color name="button_danger">#dc3545</color>
+    <color name="button_danger_border">#c12232</color>
+    <color name="button_danger_pressed">#c12232</color>
+    <color name="button_danger_pressed_border">#990000</color>
+
+    <color name="button_purple">#ba68c8</color>
+    <color name="button_purple_border">#ab47bc</color>
+    <color name="button_purple_pressed">#ab47bc</color>
+    <color name="button_purple_pressed_border">#9c27b0</color>
+
+    <color name="button_white">#ffffff</color>
+    <color name="button_white_border">#d6d6d6</color>
+    <color name="button_white_pressed">#c6c6c6</color>
+    <color name="button_white_pressed_border">#b6b6b6</color>
+
+    <!-- Selector -->
+    <color name="selector_normal">#00000000</color>
+    <color name="selector_pressed">#114CAF50</color>
+    <color name="selector_selected">#114CAF50</color>
+    <color name="selector_focused">#114CAF50</color>
+</resources>

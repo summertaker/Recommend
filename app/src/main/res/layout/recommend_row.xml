@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/selectableItemBackground"
+    android:clickable="true"
+    android:focusable="false"
+    android:focusableInTouchMode="false"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_padding">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <!-- 번호 -->
+            <TextView
+                android:id="@+id/tvId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/ns"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="@null"
+                android:textColor="@color/ink"
+                android:textSize="@dimen/text_md" />
+
+            <!-- 종목 이름 -->
+            <TextView
+                android:id="@+id/tvName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="middle"
+                android:singleLine="true"
+                android:text="@null"
+                android:textColor="@color/ink"
+                android:textSize="@dimen/text_md"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <!-- 리스트 모드에서 사용 -->
+        <LinearLayout
+            android:id="@+id/loPriceL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <!-- 수익률 -->
+            <TextView
+                android:id="@+id/tvRorH"
+                android:layout_width="65dp"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:gravity="end"
+                android:singleLine="true"
+                android:text="@null"
+                android:textStyle="bold" />
+
+            <!-- 등락 아이콘 -->
+            <TextView
+                android:id="@+id/tvFlucIconL"
+                android:layout_width="25dp"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:text="@null"
+                android:textSize="@dimen/text_sm"
+                android:visibility="gone" />
+
+            <!-- 등락률 -->
+            <TextView
+                android:id="@+id/tvRofL"
+                android:layout_width="65dp"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:gravity="end"
+                android:singleLine="true"
+                android:text="@null" />
+
+            <!-- 현재가 -->
+            <TextView
+                android:id="@+id/tvPriceL"
+                android:layout_width="95dp"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:gravity="end"
+                android:singleLine="true"
+                android:text="@null"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/loPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/ns"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <!-- 현재가: 텍스트 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/current_price"
+            android:textColor="@color/ink" />
+
+        <!-- 현재가 -->
+        <TextView
+            android:id="@+id/tvPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/xs"
+            android:text="@null"
+            android:textColor="@color/success"
+            android:textStyle="bold" />
+
+        <!-- 등락률: 텍스트 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/md"
+            android:text="@string/rate_of_fluctuation"
+            android:textColor="@color/ink" />
+
+        <!-- 등락 아이콘 -->
+        <TextView
+            android:id="@+id/tvFlucIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/xs"
+            android:text="@null"
+            android:textSize="@dimen/text_sm"
+            android:visibility="gone" />
+
+        <!-- 등락률 -->
+        <TextView
+            android:id="@+id/tvRof"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/xs"
+            android:text="@null"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/loReco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <!-- 수익률: 텍스트 -->
+        <TextView
+            android:id="@+id/tvRorText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/xs"
+            android:singleLine="true"
+            android:text="@string/rate_of_return"
+            android:textColor="@color/ink" />
+
+        <!-- 수익률 -->
+        <TextView
+            android:id="@+id/tvRor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/md"
+            android:singleLine="true"
+            android:text="@null"
+            android:textColor="@color/success"
+            android:textStyle="bold" />
+
+        <!-- 목표가: 텍스트 -->
+        <TextView
+            android:id="@+id/tvTprText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/xs"
+            android:singleLine="true"
+            android:text="@string/target_price"
+            android:textColor="@color/ink" />
+
+        <!-- 목표가 -->
+        <TextView
+            android:id="@+id/tvTpr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/md"
+            android:singleLine="true"
+            android:text="@null"
+            android:textColor="@color/success"
+            android:textStyle="bold" />
+
+        <!-- 추천일: 텍스트 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:text="@string/date_of_recommendation"
+            android:textColor="@color/ink" />
+
+        <!-- 추천일 -->
+        <TextView
+            android:id="@+id/tvListed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/xs"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="@null"
+            android:textColor="@color/info" />
+
+        <!-- 경과일 -->
+        <TextView
+            android:id="@+id/tvElapsed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/xs"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="@null"
+            android:textColor="@color/warning" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/loBroker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <!-- 증권사: 텍스트 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/xs"
+            android:singleLine="true"
+            android:text="@string/broker"
+            android:textColor="@color/ink" />
+
+        <!-- 증권사 -->
+        <TextView
+            android:id="@+id/tvBroker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="@null"
+            android:textColor="@color/success" />
+
+    </LinearLayout>
+
+    <!-- 태그 목록: 래퍼 -->
+    <LinearLayout
+        android:id="@+id/loTag"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/tag_wrapper_height_sm"
+        android:layout_marginTop="@dimen/sm"
+        android:orientation="horizontal" />
+
+    <!-- 추천 사유 -->
+    <TextView
+        android:id="@+id/tvReason"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/xs"
+        android:lineSpacingExtra="3sp" />
+
+    <ImageView
+        android:id="@+id/ivChart"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/candle_chart_height"
+        android:layout_marginTop="@dimen/md"
+        android:adjustViewBounds="true"
+        android:background="@drawable/chart_background"
+        android:contentDescription="@null"
+        android:scaleType="fitCenter" />
+
+</LinearLayout>

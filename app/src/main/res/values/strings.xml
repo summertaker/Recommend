@@ -1,0 +1,282 @@
+<resources>
+    <string name="sharp">#</string>
+
+    <string name="action_add">추가</string>
+    <string name="action_clear">삭제</string>
+    <string name="access_denied">접근이 거부되었습니다.</string>
+    <string name="action_favorite">관심</string>
+    <string name="action_finish">종료</string>
+    <string name="action_kakao_stock">카카오 스탁</string>
+    <string name="action_chart">차트</string>
+    <string name="action_calendar">달력</string>
+    <string name="action_possession">보유</string>
+    <string name="action_refresh">새로 고침</string>
+    <string name="action_recommend">추천</string>
+    <string name="action_save">저장</string>
+    <string name="action_search">검색</string>
+    <string name="action_settings">설정</string>
+    <string name="action_sort">정렬</string>
+    <string name="action_tag">태그</string>
+    <string name="ad">광고</string>
+    <string name="add_to_favorite">관심 종목에 추가</string>
+    <string name="add_to_possession">보유 종목에 추가</string>
+    <string name="after_recommended_day">추천일 후</string>
+    <string name="alert">ALERT</string>
+    <string name="app_name">RECOMMEND</string>
+    <string name="app_will_be_quit">앱이 종료됩니다.</string>
+    <string name="asking_price">호가</string>
+
+    <string name="s_days_ago">%s일 전</string>
+
+    <string name="background_color">배경색</string>
+    <string name="broker">증권사</string>
+    <string name="business_information">기업 정보</string>
+
+    <string name="chartMode">차트</string>
+    <string name="code">코드</string>
+    <string name="corporate_overview">기업 개요</string>
+    <string name="current_price">현재가</string>
+
+    <string name="data_processing_is_not_finished">데이터 처리가 끝나지 않았습니다.</string>
+    <string name="data_loading">데이터 로드 중&#8230;</string>
+    <string name="date_of_recommendation">추천일</string>
+    <string name="daum">DAUM</string>
+    <string name="daum_finance">다음 금융</string>
+    <string name="daum_news">다음 뉴스</string>
+    <string name="daum_search">다음 검색</string>
+    <string name="day_chart">일</string>
+    <string name="week_chart">주</string>
+    <string name="daily_candle_chart">일봉</string>
+    <string name="delete">삭제하기</string>
+
+    <string name="error">에러</string>
+    <string name="exclude">제외</string>
+
+    <string name="favorite">관심</string>
+    <string name="favorite_item">관심 종목</string>
+    <string name="favorite_off">☆</string>
+    <string name="favorite_on">★</string>
+    <string name="finance_link">증권 링크 :</string>
+    <string name="finish">종료</string>
+    <string name="first_recommended_day">최초 추천일</string>
+    <string name="five_years">5년</string>
+
+    <string name="google_news">구글 뉴스</string>
+    <string name="google_search">구글 검색</string>
+
+    <string name="highlight">강조</string>
+
+    <string name="include">포함</string>
+    <string name="input_item_name">종목 이름을 입력하세요.</string>
+    <string name="item_name">종목 이름</string>
+    <string name="invalid_stock_price_range">주가 범위가 유효하지 않습니다.</string>
+
+    <string name="kakao_stock">카카오 스탁 :</string>
+
+    <string name="last_recommended_day">최근 추천일</string>
+    <string name="loading">로드 중&#8230;</string>
+
+    <string name="modified_price">수정가</string>
+    <string name="month_candle_chart">월봉</string>
+
+    <string name="name">이름</string>
+    <string name="nav_header_title">써머 스탁</string>
+    <string name="nav_header_subtitle">summertaker@gmail.com</string>
+    <string name="nav_header_desc">Version 1.0</string>
+    <string name="naver">NAVER</string>
+    <string name="navigation_drawer_open">Open</string>
+    <string name="navigation_drawer_close">Close</string>
+    <string name="naver_finance">네이버 금융</string>
+    <string name="naver_news">네이버 뉴스</string>
+    <string name="naver_search">네이버 검색</string>
+    <string name="network_error">네트웍 에러</string>
+    <string name="news">뉴스</string>
+    <string name="no_data">No Data.</string>
+    <string name="number_of_recommendation">추천수</string>
+
+    <string name="ok">확인</string>
+    <string name="one_day">1일</string>
+    <string name="one_month">1개월</string>
+    <string name="one_week">1주일</string>
+    <string name="one_year">1년</string>
+    <string name="open_in_new">새 창에서 열기</string>
+
+    <string name="per">PER</string>
+    <string name="percent">%</string>
+    <string name="possession">보유</string>
+    <string name="possession_item">보유 종목</string>
+    <string name="price_of_fluctuation">전일비</string>
+    <string name="price_of_prediction">예측가</string>
+    <string name="price_of_trade">거래액</string>
+    <string name="portfolio">포트폴리오</string>
+    <string name="processing">처리 중&#8230;</string>
+
+    <string name="rate_of_fluctuation">등락률</string>
+    <string name="rate_of_return">수익률</string>
+    <string name="rate_of_rise">상승률</string>
+    <string name="recommendation">추천</string>
+    <string name="reason_of_recommendation">추천 이유</string>
+    <string name="remove_from_favorite">관심 종목에서 제거</string>
+    <string name="remove_from_possession">보유 종목에서 제거</string>
+    <string name="rise_item">상승 종목</string>
+    <string name="roe">ROE</string>
+
+    <string name="save">저장하기</string>
+    <string name="search_link">검색 링크 :</string>
+    <string name="style">스타일</string>
+    <string name="symbol_foreigner">외</string>
+    <string name="symbol_institution">관</string>
+
+    <string name="tag">태그</string>
+    <string name="target_price">목표가</string>
+    <string name="ten_years">10년</string>
+    <string name="text_color">글자색</string>
+    <string name="three_months">3개월</string>
+    <string name="three_years">3년</string>
+    <string name="today">오늘</string>
+
+    <string name="volume_of_trade">거래량</string>
+
+    <string name="week_candle_chart">주봉</string>
+    <string name="word">글자</string>
+
+    <string name="yesterday">어제</string>
+
+    <string name="main_item_breaking_title">BREAKING</string>
+    <string name="main_item_breaking_subtitle">속보</string>
+    <string name="main_item_cause_title">CAUSE</string>
+    <string name="main_item_cause_subtitle">사유</string>
+    <string name="main_item_news_title">NEWS</string>
+    <string name="main_item_news_subtitle">뉴스</string>
+    <string name="main_item_portfolio_title">PORTFOLIO</string>
+    <string name="main_item_portfolio_subtitle">포트폴리오</string>
+    <string name="main_item_grade_title">GRADE</string>
+    <string name="main_item_grade_subtitle">등급</string>
+    <string name="main_item_picker_title">PICKER</string>
+    <string name="main_item_picker_subtitle">픽커</string>
+    <string name="main_item_rise_title">RISE</string>
+    <string name="main_item_rise_subtitle">상승</string>
+    <string name="main_item_fall_title">FALL</string>
+    <string name="main_item_fall_subtitle">하락</string>
+    <string name="main_item_all_title">ITEM</string>
+    <string name="main_item_all_subtitle">전종목</string>
+    <string name="main_item_fluctuation_title">FLUCTUATION</string>
+    <string name="main_item_fluctuation_subtitle">상승/하락</string>
+    <string name="main_item_trade_title">TRADE</string>
+    <string name="main_item_trade_subtitle">외국인/기관 매매</string>
+    <string name="main_item_trader_title">TRADER</string>
+    <string name="main_item_trader_subtitle">거래원</string>
+    <string name="main_item_buy_title">BUY</string>
+    <string name="main_item_buy_subtitle">매수</string>
+    <string name="main_item_top_title">TOP</string>
+    <string name="main_item_top_subtitle">상위</string>
+    <string name="main_item_week_title">WEEK</string>
+    <string name="main_item_week_subtitle">주간 상위</string>
+    <string name="main_item_recommend_title">RECOMMEND</string>
+    <string name="main_item_recommend_subtitle">추천 종목</string>
+    <string name="main_item_tag_title">TAG</string>
+    <string name="main_item_word_title">WORD</string>
+    <string name="main_item_word_subtitle">강조, 제외 글자</string>
+    <string name="main_item_setting_title">SETTING</string>
+    <string name="main_item_setting_subtitle">환경설정</string>
+
+    <string name="setting_buy_price_per_item">종목당 매수 금액 (원)</string>
+    <string name="setting_highest_price">최고가 (원)</string>
+    <string name="setting_lowest_price">최저가 (원)</string>
+    <string name="setting_highest_rof">최고 등락률 (%)</string>
+    <string name="setting_lowest_rof">최저 등락률 (%)</string>
+    <string name="setting_rof">등락률</string>
+    <string name="setting_recommend_setting">추천</string>
+    <string name="setting_picker_rof_setting">피커 등락률 설정</string>
+    <string name="setting_price_setting">가격</string>
+    <string name="setting_rise_rof_setting">상승 등락률 설정</string>
+
+    <string name="text_to_exclude">제외할 글자</string>
+
+    <string name="word_category_alert_include">알림 포함 글자</string>
+    <string name="word_category_alert_exclude">알림 제외 글자</string>
+    <string name="word_category_naver_include">네이버 포함 글자</string>
+    <string name="word_category_naver_exclude">네이버 제외 글자</string>
+    <string name="word_category_naver_ad">네이버 광고 글자</string>
+    <string name="word_category_daum_include">다음 포함 글자</string>
+    <string name="word_category_daum_exclude">다음 제외 글자</string>
+    <string name="word_category_daum_ad">다음 광고 글자</string>
+
+    <string name="pager_item_news_breaking">실시간 속보</string>
+    <string name="pager_item_news_feature">장중 특징주</string>
+    <string name="pager_item_news_ranking">많이 본 뉴스</string>
+    <string name="pager_item_news_main">주요 뉴스</string>
+
+    <string name="pager_item_top_feature">장중 특징주</string>
+    <string name="pager_item_top_ranking">많이 본 뉴스</string>
+    <string name="pager_item_top_main">주요 뉴스</string>
+
+    <string name="pager_item_week_rise">주간 상승률</string>
+    <string name="pager_item_week_fb">외국인 매수</string>
+    <string name="pager_item_week_nb">기관 매수</string>
+
+    <string name="pager_item_fluc_rise">상승</string>
+    <string name="pager_item_fluc_jump">급등</string>
+    <string name="pager_item_fluc_ceiling">상한가</string>
+    <string name="pager_item_fluc_fall">하락</string>
+    <string name="pager_item_fluc_crash">급락</string>
+    <string name="pager_item_fluc_floor">하한가</string>
+
+    <string name="pager_item_trade_foreign_buy">외국인 매수</string>
+    <string name="pager_item_acc_trade_foreign_buy">외국인 누적</string>
+    <string name="pager_item_trade_foreign_sell">외국인 매도</string>
+    <string name="pager_item_trade_institution_buy">기관 매수</string>
+    <string name="pager_item_acc_trade_institution_buy">기관 누적</string>
+    <string name="pager_item_trade_institution_sell">기관 매도</string>
+    <string name="pager_item_trade_overseas_buy">외국계 증권사</string>
+    <string name="pager_item_trade_domestic_buy">국내 증권사</string>
+    <string name="pager_item_trader_buy">거래원 매수</string>
+    <string name="pager_item_trader_sell">거래원 매도</string>
+
+    <string name="pager_item_recommend_return">1개월 수익률</string>
+    <string name="pager_item_recommend_top">추천수 상위</string>
+    <string name="pager_item_recommend_current">현재 추천</string>
+    <string name="pager_item_recommend_wise">와이즈 추천</string>
+
+    <string name="pager_item_detail_info">기본 정보</string>
+    <string name="pager_item_detail_overview">기업 개요</string>
+    <string name="pager_item_detail_news">종목 뉴스</string>
+    <string name="pager_item_detail_reason">추천 사유</string>
+
+    <string name="option_primary">Primary</string>
+    <string name="option_success">Success</string>
+    <string name="option_info">Info</string>
+    <string name="option_warning">Warning</string>
+    <string name="option_danger">Danger</string>
+    <string name="option_default">Default</string>
+
+    <string name="format_money">%S원</string>
+    <string name="format_stock">%S주</string>
+    <string name="format_buy_volume_per_money">매수 %S주</string>
+
+    <string name="title_activity_breaking_list">속보</string>
+    <string name="title_activity_news_list">뉴스</string>
+    <string name="title_activity_portfolio">포트폴리오</string>
+    <string name="title_activity_rise">상승</string>
+    <string name="title_activity_trade">매매</string>
+    <string name="title_activity_search">검색</string>
+    <string name="title_activity_web">웹</string>
+    <string name="title_activity_setting">설정</string>
+    <string name="title_activity_tag_list">태그</string>
+    <string name="title_activity_tag_edit">태그 편집</string>
+    <string name="title_activity_word_list">단어 목록</string>
+    <string name="title_activity_word_edit">단어 편집</string>
+    <string name="title_activity_news_detail">뉴스</string>
+    <string name="title_activity_grade">등급</string>
+    <string name="title_activity_word_category">단어 설정</string>
+    <string name="title_activity_recommend">추천</string>
+    <string name="title_activity_week">주간 상위</string>
+    <string name="title_activity_top">상위 종목</string>
+    <string name="title_activity_cause">사유</string>
+    <string name="title_activity_alert">알림</string>
+    <string name="title_activity_picker">픽커</string>
+    <string name="title_activity_item_history">전종목</string>
+    <string name="title_activity_trader">거래원</string>
+    <string name="title_activity_fluctuation">등락</string>
+
+</resources>

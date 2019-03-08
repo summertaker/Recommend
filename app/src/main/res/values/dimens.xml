@@ -1,0 +1,77 @@
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="activity_margin">12dp</dimen>
+    <dimen name="activity_padding">10dp</dimen>
+    <dimen name="nav_header_height">170dp</dimen>
+    <dimen name="nav_header_padding">20dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <!-- Space -->
+    <dimen name="hl">20dp</dimen>
+    <dimen name="bl">15dp</dimen>
+    <dimen name="xl">12dp</dimen>
+    <dimen name="lg">10dp</dimen>
+    <dimen name="md">8dp</dimen>
+    <dimen name="sm">6dp</dimen>
+    <dimen name="xs">4dp</dimen>
+    <dimen name="ns">2dp</dimen>
+
+    <dimen name="title_line_spacing">5dp</dimen>
+
+    <!-- Text -->
+    <dimen name="text_xl">20sp</dimen>
+    <dimen name="text_lg">18sp</dimen>
+    <dimen name="text_md">16sp</dimen>
+    <dimen name="text_sm">13sp</dimen>
+    <dimen name="text_xs">12sp</dimen>
+
+    <!-- 태그 목록 래퍼 -->
+    <dimen name="tag_wrapper_height">25dp</dimen>
+    <dimen name="tag_wrapper_height_sm">23dp</dimen>
+
+    <!-- 폼 -->
+    <dimen name="form_control_drawable_padding">10dp</dimen>
+    <dimen name="form_control_text_size">15sp</dimen>
+    <dimen name="form_control_margin">15dp</dimen>
+    <dimen name="button_padding">10dp</dimen>
+    <dimen name="button_padding_top">10dp</dimen>
+    <dimen name="button_padding_bottom">10dp</dimen>
+    <dimen name="button_padding_left">20dp</dimen>
+    <dimen name="button_padding_right">20dp</dimen>
+
+    <!-- 스몰 버튼 -->
+    <dimen name="form_control_text_size_small">13sp</dimen>
+    <dimen name="button_height_small">36dp</dimen>
+    <dimen name="button_padding_small">0dp</dimen>
+    <dimen name="button_padding_top_small">10dp</dimen>
+    <dimen name="button_padding_bottom_small">10dp</dimen>
+    <dimen name="button_padding_left_small">20dp</dimen>
+    <dimen name="button_padding_right_small">20dp</dimen>
+
+    <!-- 미니 버튼 -->
+    <dimen name="form_control_text_size_mini">12sp</dimen>
+    <dimen name="button_height_mini">26dp</dimen>
+    <dimen name="button_padding_mini">5dp</dimen>
+    <dimen name="button_padding_top_mini">7dp</dimen>
+    <dimen name="button_padding_bottom_mini">7dp</dimen>
+    <dimen name="button_padding_left_mini">10dp</dimen>
+    <dimen name="button_padding_right_mini">10dp</dimen>
+
+    <!-- Label -->
+    <dimen name="label_radius">3dp</dimen>
+
+    <!-- Card -->
+    <dimen name="card_corner_radius">5dp</dimen>
+    <dimen name="card_elevation">1dp</dimen>
+    <dimen name="card_item_padding">10dp</dimen>
+
+    <!-- Chart -->
+    <dimen name="candle_chart_height">185dp</dimen>
+    <dimen name="area_chart_height">185dp</dimen>
+
+    <dimen name="box_inset_layout_padding">0dp</dimen>
+    <dimen name="inner_frame_layout_padding">5dp</dimen>
+
+</resources>
