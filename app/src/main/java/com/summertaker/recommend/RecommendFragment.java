@@ -8,6 +8,7 @@ import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.widget.DividerItemDecoration;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.MenuItem;
 import android.view.View;
@@ -159,8 +160,8 @@ public class RecommendFragment extends BaseFragment {
             //-------------------
             // 추천수 상위
             //-------------------
-            //parseData(BaseApplication.getInstance().getRecommendTopItems());
-
+            parseData(BaseApplication.getInstance().getRecommendTopItems());
+            /*
             mDataManager.setOnRecommendTopItemLoaded(new DataManager.RecommendTopItemCallback() {
                 @Override
                 public void onLoad() {
@@ -168,6 +169,7 @@ public class RecommendFragment extends BaseFragment {
                 }
             });
             mDataManager.loadRecommendTopItem((Activity) mContext);
+            */
         } else if (mSite.getId().equals(Config.KEY_RECOMMEND_RETURN)) {
             //-------------------
             // 추천 종목 수익률
@@ -250,11 +252,11 @@ public class RecommendFragment extends BaseFragment {
     private void parseData(ArrayList<Item> items) {
         mItems.clear();
 
-        /*
         long id = 1;
         for (Item item : items) {
             for (Item bi : BaseApplication.getInstance().getItemPrices()) {
                 if (bi.getCode().equals(item.getCode())) {
+                    //Log.e(TAG, bi.getName() + ": " + bi.getNor());
                     if (isValidItem(bi)) {
                         item.setId(id);
                         item.setPrice(bi.getPrice());   // 현재가
@@ -272,8 +274,8 @@ public class RecommendFragment extends BaseFragment {
                 }
             }
         }
-        */
 
+        /*
         long id = 1;
         for (Item item : items) {
             item.setId(id);
@@ -284,6 +286,7 @@ public class RecommendFragment extends BaseFragment {
             //    Log.e(TAG, item.getName() + " " + item.getNor());
             //}
         }
+        */
 
         /*
         if (mSite.getId().equals(Config.KEY_RECOMMEND_TOP)) {

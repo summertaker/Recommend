@@ -60,11 +60,11 @@ public class MainActivity extends BaseActivity implements NavigationView.OnNavig
 
         mListMode = false;
 
-        //showBaseProgress(2);
-        //loadItemPrice();
+        showBaseProgress(2);
+        loadItemPrice();
 
-        showBaseProgress(0);
-        init();
+        //showBaseProgress(0);
+        //init();
     }
 
     @Override
@@ -102,6 +102,7 @@ public class MainActivity extends BaseActivity implements NavigationView.OnNavig
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
         // Handle navigation view item clicks here.
+        /*
         int id = item.getItemId();
 
         if (id == R.id.nav_camera) {
@@ -117,6 +118,7 @@ public class MainActivity extends BaseActivity implements NavigationView.OnNavig
         } else if (id == R.id.nav_send) {
 
         }
+        */
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);

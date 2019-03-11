@@ -224,7 +224,7 @@ public class DaumParser extends BaseParser {
                 item.setPof(Util.getInt(obj, "changePrice"));
                 item.setRof(BigDecimal.valueOf(Util.getDouble(obj, "changeRate")).floatValue()); // 등락률
 
-                Log.e(TAG, item.getCode() + " " + item.getName() + " " + item.getPrice() + " / " + item.getRof());
+                //Log.e(TAG, item.getCode() + " " + item.getName() + " " + item.getPrice() + " / " + item.getRof());
 
                 items.add(item);
             }
