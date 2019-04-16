@@ -60,11 +60,11 @@ public class MainActivity extends BaseActivity implements NavigationView.OnNavig
 
         mListMode = false;
 
-        showBaseProgress(2);
-        loadItemPrice();
+        //showBaseProgress(2);
+        //loadItemPrice();
 
-        //showBaseProgress(0);
-        //init();
+        showBaseProgress(0);
+        init();
     }
 
     @Override

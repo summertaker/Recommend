@@ -161,6 +161,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
+        android:layout_marginTop="@dimen/xs"
         android:visibility="gone">
 
         <!-- 수익률: 텍스트 -->
@@ -233,7 +234,7 @@
             android:ellipsize="end"
             android:singleLine="true"
             android:text="@null"
-            android:textColor="@color/warning" />
+            android:textColor="@color/gray" />
 
     </LinearLayout>
 

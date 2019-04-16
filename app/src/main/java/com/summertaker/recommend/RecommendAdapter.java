@@ -191,20 +191,22 @@ public class RecommendAdapter extends RecyclerView.Adapter<RecommendAdapter.Item
             holder.tvReason.setText(item.getReason());
         }
 
+        holder.loPrice.setVisibility(View.GONE);
+        holder.loPriceL.setVisibility(View.GONE);
         if (item.isListMode()) {
             //---------------
             // 리스트 모드
             //---------------
-            holder.loPrice.setVisibility(View.GONE);
-            holder.loPriceL.setVisibility(View.VISIBLE);
+            //holder.loPrice.setVisibility(View.GONE);
+            //holder.loPriceL.setVisibility(View.VISIBLE);
             holder.loReco.setVisibility(View.GONE);
             holder.ivChart.setVisibility(View.GONE);
         } else {
             //---------------
             // 차트 모드
             //---------------
-            holder.loPrice.setVisibility(View.VISIBLE);
-            holder.loPriceL.setVisibility(View.GONE);
+            //holder.loPrice.setVisibility(View.VISIBLE);
+            //holder.loPriceL.setVisibility(View.GONE);
             holder.loReco.setVisibility(View.VISIBLE);
 
             // 차트
